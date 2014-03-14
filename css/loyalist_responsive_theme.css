@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+  color: #aa0501;
+}
+
+.flex-direction-nav li a.prev:hover,
+.flex-direction-nav li a.next:hover {
+    text-decoration: none;
+    background: #aa0501;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
