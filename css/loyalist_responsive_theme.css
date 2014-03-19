@@ -2,7 +2,15 @@ a {
   text-decoration: none;
   color: #aa0501;
 }
-
+#edit-search-api-views-fulltext {
+   width: 300px;
+}
+.content {
+   padding-bottom: 2px;
+}
+.form-item {
+  position: relative;
+}
 .flex-direction-nav li a.prev:hover,
 .flex-direction-nav li a.next:hover {
     text-decoration: none;
@@ -10,4 +18,44 @@ a {
     -moz-opacity: 1;
     -khtml-opacity: 1;
     opacity: 1;
+}
+#edit-title
+{
+  width:300px;
+  height: 10px;
+}
+#edit-field-document-id-value
+{
+  height: 10px;
+  width: 80px;
+}
+#edit-field-call-number-value
+{
+  height: 10px;
+  width: 150px;
+}
+#edit-field-other-numbers-value
+{
+  height: 10px;
+}
+.view-loyalist-records-search td {
+  width: 180px;
+}
+.views-field-title:first-letter {
+  text-transform: uppercase;
+}
+.view-browse-by-category td.views-field.views-field-title {
+  width: 200px;
+}
+td:first-letter {
+  text-transform: uppercase;
+}
+#block-system-navigation h2 {
+  display: none;
+}
+#block-menu-menu-advanced-search h2 {
+  display: none;
+}
+.views-table thead .views-field-field-issuing-body a {
+  color: #FFFFFF;
 }
