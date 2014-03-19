@@ -1,4 +1,9 @@
 <?php
+   if($is_front) {
+       unset($title);
+    }
+?>
+<?php
 /**
  * @file
  * Default theme implementation to display a single Drupal page.
@@ -138,7 +143,8 @@
       <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
-      <?php print render($title_suffix); ?>
+      <?php print render($title_suffix); ?> 
+      
       <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
@@ -180,12 +186,14 @@
 
       <div id="footer-bottom" class="clearfix">
         <div id="copyright" class="clearfix">
-          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>  //  
+          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>  
         </div>
         <div id="back-to-top" class="clearfix">
-          <a href="#toplink">back up ↑</a>
+          <!--a href="#toplink">back up ↑</a-->
+         <?php print $user->uid ? l('Logout', 'user/logout') : l('Login','user/login'); ?>
         </div>
       </div>
     </div>
   </div>
 </div>
+
