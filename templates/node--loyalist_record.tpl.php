@@ -102,14 +102,14 @@
 					?>
 				</td>
 	   </tr>
-	   <tr>
+	   <!--tr>
 		   	<td style="padding:20px; font-weight:bold;">Has Record for Finding aid: </td>
 				<td>
 					<?php
-						print $node->field_accompanying_record['und'][0]['value'];
+						//print $node->field_accompanying_record['und'][0]['value'];
 					?>
 				</td>
-	   </tr>
+	   </tr-->
 	   <tr>
 		   	<td style="padding:20px; font-weight:bold;">Part Of: </td>
 				<td>
