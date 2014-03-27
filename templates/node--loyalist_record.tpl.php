@@ -41,8 +41,11 @@
 						print $node->field_number_of_sources['und'][0]['value']." ";
 						print l($node->field_media_type['und'][0]['taxonomy_term']->name, 'taxonomy/term/'.$node->field_media_type['und'][0]['tid'])." ";
 						print $node->field_record_info['und'][0]['value']." ";
-						print $node->field_gauge['und'][0]['value']." ";
-						
+						print "(";
+						print $node->field_volume_info['und'][0]['value'];
+						print ")";
+						print " ; ";
+						print $node->field_gauge['und'][0]['value']." ";						
 					?>
 				</td>
 	   </tr>
