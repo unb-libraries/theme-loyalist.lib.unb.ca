@@ -42,7 +42,8 @@ a {
   width: 180px;
 }
 .view-loyalist-records-search p {
-  font-size: 14px;
+  font-size: 15px;
+  color: red;
 }
 .views-field-title:first-letter {
   text-transform: uppercase;
