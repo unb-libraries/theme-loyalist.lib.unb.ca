@@ -63,3 +63,12 @@ td:first-letter {
 .views-table thead .views-field-field-issuing-body a {
   color: #FFFFFF;
 }
+#leftsoldier {
+float: left;
+}
+#rightsoldier {
+float: right;
+}
+#buttons {
+padding-left: 200px;
+}
