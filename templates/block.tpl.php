@@ -52,9 +52,8 @@
     <?php print $content ?>
   </div>
   <?php
-      //print_r($block); 
-      if($block->bid == 140) {
-         echo '<a href="http://loyalist.lib.unb.ca/advanced-loyalist-records">Advanced Search</a>';
+      if($block->bid == 144) {
+         echo '<a href="/advanced-loyalist-records">Advanced Search</a>';
       }
    ?>
 </div> <!-- /.block -->
