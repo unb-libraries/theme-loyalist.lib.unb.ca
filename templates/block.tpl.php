@@ -53,7 +53,7 @@
   </div>
   <?php
       if($block->bid == 144) {
-         echo '<a href="/advanced-loyalist-records">Advanced Search</a>';
+         echo '<a href="/advanced-record-search">Advanced Search</a>';
       }
    ?>
 </div> <!-- /.block -->
