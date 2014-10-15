@@ -19,11 +19,17 @@ a {
     -khtml-opacity: 1;
     opacity: 1;
 }
-#edit-title
+#views-exposed-form-advanced-loyalist-records-page .views-exposed-widget
 {
-  width:300px;
+  clear: left;
+}
+
+#views-exposed-form-advanced-loyalist-records-page input[type="text"]
+{
+  width: 300px;
   height: 10px;
 }
+
 #edit-field-document-id-value
 {
   height: 10px;
