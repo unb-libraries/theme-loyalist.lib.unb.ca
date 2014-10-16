@@ -30,6 +30,10 @@ a {
   height: 10px;
 }
 
+#edit-field-subject-heading-wrapper, #edit-field-subject-heading-wrapper select {
+  width: 100%;
+}
+
 #edit-field-document-id-value
 {
   height: 10px;
