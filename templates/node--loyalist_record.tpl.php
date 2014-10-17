@@ -74,7 +74,7 @@
 				</td>
 	   </tr>
 	   <tr>
-		   	<td style="padding:20px; font-weight:bold;">Other Numbers: </td>
+		   	<td style="padding:20px; font-weight:bold;">Archival Ref. No.: </td>
 				<td>
 					<?php
 						print $node->field_other_numbers['und'][0]['value'];
@@ -93,7 +93,12 @@
 					?>
 				</pre></td>
 	   </tr>
-
+	   <tr>
+	   		<td style="padding:20px; font-weight:bold;">Electronic Finding Aid Record: </td>
+	   		<td>
+	   			<a href="<?php print file_create_url($node->field_finding_aid_record['und'][0]['uri']); ?>" target="_blank"><?php print $node->field_finding_aid_record['und'][0]['filename']; ?></a>
+	   		</td>
+	   </tr>
 	   <tr>
 		   	<td style="padding:20px; font-weight:bold;">Notes: </td>
 				<td>
@@ -125,12 +130,6 @@
 						print $node->field_other_with['und'][0]['value'];
 					?>
 				</td>
-	   </tr>
-	   <tr>
-	   		<td style="padding:20px; font-weight:bold;">Finding Aid Record: </td>
-	   		<td>
-	   			<a href="<?php print file_create_url($node->field_finding_aid_record['und'][0]['uri']); ?>" target="_blank"><?php print $node->field_finding_aid_record['und'][0]['filename']; ?></a>
-	   		</td>
 	   </tr>
 	   <tr>
 		   	<td style="padding:20px; font-weight:bold;">Database ID: </td>
