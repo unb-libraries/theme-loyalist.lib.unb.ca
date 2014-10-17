@@ -82,3 +82,7 @@ float: right;
 #buttons {
 padding-left: 200px;
 }
+
+#information pre {
+  font-size: 14px;
+}
