@@ -19,12 +19,12 @@ a {
     -khtml-opacity: 1;
     opacity: 1;
 }
-#views-exposed-form-advanced-loyalist-records-page .views-exposed-widget
+#views-exposed-form-advanced-search-page .views-exposed-widget
 {
   clear: left;
 }
 
-#views-exposed-form-advanced-loyalist-records-page input[type="text"]
+#views-exposed-form-advanced-search-page input[type="text"]
 {
   width: 300px;
   height: 10px;
