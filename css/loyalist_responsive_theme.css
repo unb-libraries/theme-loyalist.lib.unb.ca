@@ -34,27 +34,6 @@ a {
   width: 100%;
 }
 
-#edit-field-document-id-value
-{
-  height: 10px;
-  width: 80px;
-}
-#edit-field-call-number-value
-{
-  height: 10px;
-  width: 150px;
-}
-#edit-field-other-numbers-value
-{
-  height: 10px;
-}
-.view-loyalist-records-search td {
-  width: 180px;
-}
-.view-loyalist-records-search p {
-  font-size: 15px;
-  color: red;
-}
 .views-field-title:first-letter {
   text-transform: uppercase;
 }
