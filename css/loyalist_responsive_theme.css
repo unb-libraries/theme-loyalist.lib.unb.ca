@@ -70,3 +70,23 @@ padding-left: 200px;
 #information pre {
   font-size: 14px;
 }
+
+.page-loyalist-search .views-field-counter,
+.page-loyalist-search .views-field-title
+{
+  font-size: 1.2em
+}
+
+.page-loyalist-search .views-field-search-api-excerpt {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.page-loyalist-search .views-row {
+ padding: 5px;
+}
+
+.page-loyalist-search .views-row-even {
+  background: #f0f0f0;
+}
