@@ -52,7 +52,7 @@
     <?php print $content ?>
   </div>
   <?php
-      if($block->bid == 144) {
+      if($block->bid == 147) {
          echo '<a href="/advanced-record-search">Advanced Search</a>';
       }
    ?>
