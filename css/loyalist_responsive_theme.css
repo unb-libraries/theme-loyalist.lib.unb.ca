@@ -45,9 +45,6 @@ a {
 .view-browse-by-category td.views-field.views-field-title {
   width: 200px;
 }
-td:first-letter {
-  text-transform: uppercase;
-}
 #block-system-navigation h2 {
   display: none;
 }
