@@ -10,7 +10,6 @@
 		   	<td style="padding:20px; font-weight:bold;">Call Number: </td>
 				<td>
 					<?php
-						//print "Call";
 						print $node->field_call_number['und'][0]['value'];
 					?>
 				</td>
@@ -19,8 +18,6 @@
 		   	<td style="padding:20px; font-weight:bold;">Category: </td>
 				<td>
 					<?php
-						//print "Call";
-						//print $node->field_province['und'][0]['value'];
 						print l($node->field_subject_heading['und'][0]['taxonomy_term']->name, 'taxonomy/term/'.$node->field_subject_heading['und'][0]['tid'])." ";
 					?>
 				</td>
@@ -29,7 +26,6 @@
 		   	<td style="padding:20px; font-weight:bold;">Creator: </td>
 				<td>
 					<?php
-						//print $node->field_name['und'][0]['taxonomy_term']->name;
 						print l($node->field_issuing_body['und'][0]['taxonomy_term']->name,'taxonomy/term/'.$node->field_issuing_body['und'][0]['tid']);
 					?>
 				</td>
@@ -86,10 +82,6 @@
 				<td><pre style="white-space: pre-line">
 					<?php
 						print $node->field_finding_aids['und'][0]['value'];
-						//if($node->field_accompanying_record['und'][0]['value'] != null)
-						//{
-							//
-						//}
 					?>
 				</pre></td>
 	   </tr>
@@ -135,7 +127,6 @@
 		   	<td style="padding:20px; font-weight:bold;">Database ID: </td>
 				<td>
 					<?php
-						//print "Call";
 						print $node->field_document_id['und'][0]['value'];
 					?>
 				</td>
