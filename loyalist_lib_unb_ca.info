@@ -1,7 +1,7 @@
 name = Loyalist Responsive Theme
 description = Loyalist Responsive Theme
 core = 7.x
-version = 7.x-1.01
+version = 1.0
 engine = phptemplate
 base theme = responsive_business
 
