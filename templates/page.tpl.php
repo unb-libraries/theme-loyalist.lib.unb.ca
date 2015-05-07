@@ -93,24 +93,24 @@
     <?php if ($is_front): ?>
     <?php if (theme_get_setting('slideshow_display','responsive_business')): ?>
     <?php 
-    $slide1_desc = check_markup(theme_get_setting('slide1_desc','loyalist_responsive_theme'), 'full_html'); 
-    $slide2_desc = check_markup(theme_get_setting('slide2_desc','loyalist_responsive_theme'), 'full_html'); 
-    $slide3_desc = check_markup(theme_get_setting('slide3_desc','loyalist_responsive_theme'), 'full_html'); 
+    $slide1_desc = check_markup(theme_get_setting('slide1_desc','loyalist_lib_unb_ca'), 'full_html'); 
+    $slide2_desc = check_markup(theme_get_setting('slide2_desc','loyalist_lib_unb_ca'), 'full_html'); 
+    $slide3_desc = check_markup(theme_get_setting('slide3_desc','loyalist_lib_unb_ca'), 'full_html'); 
     ?>
     <div id="slider-wrap">
       <div class="full-slides flexslider clearfix">
         <ul class="slides">
         <li class="slide">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'loyalist_responsive_theme') . '/images/slide-image-1.jpg'; ?>" 
+          <img src="<?php print base_path() . drupal_get_path('theme', 'loyalist_lib_unb_ca') . '/images/slide-image-1.jpg'; ?>" 
 />
           <?php if($slide1_desc) { print '<div class="caption">' . $slide1_desc . '</div>'; } ?>
         </li><!--/slide -->
         <li class="slide">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'loyalist_responsive_theme') . '/images/slide-image-2.jpg'; ?>" />
+          <img src="<?php print base_path() . drupal_get_path('theme', 'loyalist_lib_unb_ca') . '/images/slide-image-2.jpg'; ?>" />
           <?php if($slide1_desc) { print '<div class="caption">' . $slide2_desc . '</div>'; } ?>
         </li><!--/slide -->
         <li class="slide">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'loyalist_responsive_theme') . '/images/slide-image-3.jpg'; ?>" />
+          <img src="<?php print base_path() . drupal_get_path('theme', 'loyalist_lib_unb_ca') . '/images/slide-image-3.jpg'; ?>" />
           <?php if($slide1_desc) { print '<div class="caption">' . $slide3_desc . '</div>'; } ?>
         </li><!--/slide -->
         </ul>
