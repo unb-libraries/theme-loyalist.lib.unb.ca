@@ -125,6 +125,9 @@
 					?>
 				</td>
 	   </tr>
+<?php
+if(user_is_logged_in()) {
+?>
 	   <tr>
 		   	<td style="padding:20px; font-weight:bold;">Database ID: </td>
 				<td>
@@ -133,5 +136,8 @@
 					?>
 				</td>
 	   </tr>
+<?php
+}
+?>
 	   </table>
 </div>
