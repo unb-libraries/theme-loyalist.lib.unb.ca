@@ -77,7 +77,7 @@
     </hgroup>
     <nav id="navigation" role="navigation" class="clearfix">
       <div id="main-menu">
-        <?php 
+        <?php
           if (module_exists('i18n')) {
             $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
           } else {
@@ -92,16 +92,16 @@
   <div id="main" class="clearfix">
     <?php if ($is_front): ?>
     <?php if (theme_get_setting('slideshow_display','responsive_business')): ?>
-    <?php 
-    $slide1_desc = check_markup(theme_get_setting('slide1_desc','loyalist_lib_unb_ca'), 'full_html'); 
-    $slide2_desc = check_markup(theme_get_setting('slide2_desc','loyalist_lib_unb_ca'), 'full_html'); 
-    $slide3_desc = check_markup(theme_get_setting('slide3_desc','loyalist_lib_unb_ca'), 'full_html'); 
+    <?php
+    $slide1_desc = check_markup(theme_get_setting('slide1_desc','loyalist_lib_unb_ca'), 'full_html');
+    $slide2_desc = check_markup(theme_get_setting('slide2_desc','loyalist_lib_unb_ca'), 'full_html');
+    $slide3_desc = check_markup(theme_get_setting('slide3_desc','loyalist_lib_unb_ca'), 'full_html');
     ?>
     <div id="slider-wrap">
       <div class="full-slides flexslider clearfix">
         <ul class="slides">
         <li class="slide">
-          <img src="<?php print base_path() . drupal_get_path('theme', 'loyalist_lib_unb_ca') . '/images/slide-image-1.jpg'; ?>" 
+          <img src="<?php print base_path() . drupal_get_path('theme', 'loyalist_lib_unb_ca') . '/images/slide-image-1.jpg'; ?>"
 />
           <?php if($slide1_desc) { print '<div class="caption">' . $slide1_desc . '</div>'; } ?>
         </li><!--/slide -->
@@ -135,7 +135,6 @@
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
-    
 
     <section id="content" role="main" class="clearfix">
       <?php if (theme_get_setting('breadcrumbs')): ?><?php if ($breadcrumb): ?><div id="breadcrumbs"><?php print $breadcrumb; ?></div><?php endif;?><?php endif; ?>
@@ -143,8 +142,8 @@
       <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
-      <?php print render($title_suffix); ?> 
-      
+      <?php print render($title_suffix); ?>
+
       <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
@@ -154,11 +153,11 @@
     <?php if ($page['sidebar_first']): ?>
       <aside id="sidebar" role="complementary" class="clearfix">
        <?php print render($page['sidebar_first']); ?>
-      </aside> 
+      </aside>
     <?php endif; ?>
 
     <div class="clear"></div>
-    
+
     <?php print render($page['footer']); ?>
 
   </div>
