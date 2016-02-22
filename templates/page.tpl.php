@@ -185,14 +185,14 @@
 
       <div id="footer-bottom" class="clearfix">
         <div id="copyright" class="clearfix">
-          <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>  
+          <?php print '&copy&nbsp;' . date("Y") . ' <a href="//www.unb.ca/copyright">' . t("University of New Brunswick") . '</a><br />'; ?>
+          <?php print $user->uid ? l('Logout', 'user/logout') : l('Login','user/login'); ?>
         </div>
         <div id="back-to-top" class="clearfix">
           <!--a href="#toplink">back up ↑</a-->
-         <?php print $user->uid ? l('Logout', 'user/logout') : l('Login','user/login'); ?>
+         <?php print '<a href="//lib.unb.ca"><img src="' . variable_get('file_public_path', conf_path() . '/files') . '/UNB-Libraries-Red-White-sm.png" alt="UNB Libraries" /></a>'; ?>
         </div>
       </div>
     </div>
   </div>
 </div>
-
