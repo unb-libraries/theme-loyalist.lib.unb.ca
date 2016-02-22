@@ -99,3 +99,13 @@ padding-left: 200px;
 #back-to-top {
   width: 29%;
 }
+
+#copyright {
+  color: #fff;
+  font-size: inherit;
+}
+
+#footer a:focus,
+#footer a:hover {
+  text-decoration: underline;
+}
