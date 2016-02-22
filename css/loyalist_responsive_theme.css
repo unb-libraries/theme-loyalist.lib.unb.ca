@@ -105,7 +105,6 @@ padding-left: 200px;
   font-size: inherit;
 }
 
-#footer a:focus,
-#footer a:hover {
+#footer a {
   text-decoration: underline;
 }
