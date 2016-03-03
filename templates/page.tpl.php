@@ -190,7 +190,7 @@
         </div>
         <div id="back-to-top" class="clearfix">
           <!--a href="#toplink">back up ↑</a-->
-         <?php print '<a href="//lib.unb.ca"><img src="' . variable_get('file_public_path', conf_path() . '/files') . '/UNB-Libraries-Red-White-sm.png" alt="UNB Libraries" /></a>'; ?>
+         <?php print '<a href="//lib.unb.ca"><img src="/' . variable_get('file_public_path', conf_path() . '/files') . '/UNB-Libraries-Red-White-sm.png" alt="UNB Libraries" /></a>'; ?>
         </div>
       </div>
     </div>
