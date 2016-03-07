@@ -141,7 +141,7 @@
       <?php print $messages; ?>
       <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>
       <?php print render($title_prefix); ?>
-      <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
+      <?php if (isset($title)): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
       <?php print render($title_suffix); ?>
 
       <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
