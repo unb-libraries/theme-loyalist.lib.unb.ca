@@ -89,7 +89,7 @@
 	   		<td style="padding:20px; font-weight:bold;">Electronic Finding Aid Record: </td>
 	   		<td>
 					<?php foreach( $node->field_finding_aid_record['und'] as $rec ) { ?>
-	   			<a href="<?php print file_create_url($rec['uri']); ?>" target="_blank"><?php print $rec['filename']; ?></a><br/>
+	   			<a href="<?php print file_create_url($rec['uri']); ?>" target="_blank"><?php print $rec['filename']; ?></a><br/><br/>
 					<?php } ?>
 	   		</td>
 	   </tr>
