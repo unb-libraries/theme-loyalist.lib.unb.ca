@@ -1,3 +1,28 @@
+/* Blog Rules */
+img[style*="left"],
+figure[style*="left"] {
+  padding: .5em .5em .5em 0;
+}
+img[style*="right"],
+figure[style*="right"] {
+  padding: .5em 0 .5em .5em;
+}
+/* Position share link at bottom left of content */
+.addtoany_list {
+  clear: both;
+  display: block!important;
+}
+.clear:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+#blog-banner img {
+  width: 100%; /* responsive banner image */
+}
 #autocomplete {
   max-height: 100px;
   overflow-y: scroll;
