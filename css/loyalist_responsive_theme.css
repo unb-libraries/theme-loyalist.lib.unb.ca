@@ -33,29 +33,27 @@ a {
   color: #aa0501;
 }
 #edit-keys-2 {
-   width: 300px;
+  width: 300px;
 }
 .content {
-   padding-bottom: 2px;
+  padding-bottom: 2px;
 }
 .form-item {
   position: relative;
 }
 .flex-direction-nav li a.prev:hover,
 .flex-direction-nav li a.next:hover {
-    text-decoration: none;
-    background: #aa0501;
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    opacity: 1;
+  text-decoration: none;
+  background: #aa0501;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
 }
-#views-exposed-form-advanced-search-page .views-exposed-widget
-{
+#views-exposed-form-advanced-search-page .views-exposed-widget {
   clear: left;
 }
 
-#views-exposed-form-advanced-search-page input[type="text"]
-{
+#views-exposed-form-advanced-search-page input[type="text"] {
   width: 300px;
   height: 10px;
 }
@@ -70,9 +68,6 @@ a {
 .view-browse-by-category td.views-field.views-field-title {
   width: 200px;
 }
-#block-system-navigation h2 {
-  display: none;
-}
 #block-menu-menu-advanced-search h2 {
   display: none;
 }
@@ -80,13 +75,13 @@ a {
   color: #FFFFFF;
 }
 #leftsoldier {
-float: left;
+  float: left;
 }
 #rightsoldier {
-float: right;
+  float: right;
 }
 #buttons {
-padding-left: 200px;
+  padding-left: 200px;
 }
 
 #information pre {
@@ -96,28 +91,24 @@ padding-left: 200px;
 .page-loyalist-search .views-field-counter,
 .page-loyalist-search .views-field-title,
 .page-advanced-record-search .views-field-counter,
-.page-advanced-record-search .views-field-title
-{
+.page-advanced-record-search .views-field-title {
   font-size: 1.2em
 }
 
 .page-loyalist-search .views-field-search-api-excerpt,
-.page-advanced-record-search .views-field-search-api-excerpt
-{
+.page-advanced-record-search .views-field-search-api-excerpt {
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 1em;
 }
 
 .page-loyalist-search .views-row,
-.page-advanced-record-search .views-row
-{
- padding: 5px;
+.page-advanced-record-search .views-row {
+  padding: 5px;
 }
 
 .page-loyalist-search .views-row-even,
-.page-advanced-record-search .views-row-even
-{
+.page-advanced-record-search .views-row-even {
   background: #f0f0f0;
 }
 
