@@ -124,3 +124,70 @@ a {
 #footer a {
   text-decoration: underline;
 }
+
+/* responsive media youtube videos */
+.media-youtube-video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.media-youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* adjust whitespace for media module images */
+figure {
+  margin-bottom: 1em;
+}
+
+/* add missing space between label + authernticated username in comment form */
+#comments label+a {
+  margin-left:.25em;
+}
+
+#wrap {
+  width:95%; /* 5% padding forces 100% total width */
+  max-width: 1200px;
+  padding: 0 2.5%;
+}
+body.sidebar-first #content {
+  width: 78%;
+}
+#sidebar {
+  width: 17%;
+}
+#footer-wrap {
+  margin: 0;
+  padding: 0 2.5%;
+}
+/* fix pager overlap with above content */
+ul.pager {
+  margin-top: 1em;
+}
+/* increase pager button width */
+ul.pager li a {
+  padding-left: .25em;
+  padding-right: .25em
+}
+ul.pager li.pager-current {
+  padding-left: .75em; /* default 0.5em + 0.25em to account for linked pager items */
+  padding-right: .75em
+}
+
+@media only screen and (max-width: 767px) {
+  /* push sidebar to bottom */
+  body.sidebar-first #content,
+  #sidebar {
+    width: 100%;
+  }
+  /* override non-matching menu button color, push down, match pager button roundness */
+  #navigation {
+    background: #000;
+    border-radius: 3px;
+    margin-top: 2em;
+  }
+}
