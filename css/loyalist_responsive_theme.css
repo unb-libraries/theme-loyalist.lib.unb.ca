@@ -178,6 +178,12 @@ ul.pager li.pager-current {
   padding-right: .75em
 }
 
+.noborder table,
+.noborder td,
+.noborder th {
+  border: none;
+}
+
 @media only screen and (max-width: 767px) {
   /* push sidebar to bottom */
   body.sidebar-first #content,
