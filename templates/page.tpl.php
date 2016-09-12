@@ -186,7 +186,7 @@
       <div id="footer-bottom" class="clearfix">
         <div id="copyright" class="clearfix">
           <?php print '&copy&nbsp;' . date("Y") . ' <a href="//www.unb.ca/copyright">' . t("University of New Brunswick") . '</a><br />'; ?>
-          <?php print $user->uid ? l('Logout', 'user/logout') : l('Admin Login','user/login'); ?>
+          <?php print $user->uid ? l('Logout', 'user/logout') : l('Login','user/login'); ?>
         </div>
         <div id="back-to-top" class="clearfix">
           <!--a href="#toplink">back up ↑</a-->
