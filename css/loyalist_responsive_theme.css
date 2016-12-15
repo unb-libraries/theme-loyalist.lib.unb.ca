@@ -199,7 +199,7 @@ ul.pager li.pager-current {
 }
 a:focus,
 .linked-cells td:hover h2 a {
-  color: #999;
+  color: #2e8484;
   text-decoration: underline;
 }
 .linked-cells a:focus img,
