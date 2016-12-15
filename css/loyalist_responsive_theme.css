@@ -184,6 +184,30 @@ ul.pager li.pager-current {
   border: none;
 }
 
+/* Table of image links */
+.linked-cells td img {
+  border: 1px solid transparent; /* fix border hover jump */
+  display: block /* resolve bottom whitespace issue */
+}
+.linked-cells td h2,
+.linked-cells td p {
+  margin: 0;
+}
+.linked-cells td h2 a { /* clickable whitespace around linked text */
+  display: block;
+  padding-top: 1em;
+}
+a:focus,
+.linked-cells td:hover h2 a {
+  color: #999;
+  text-decoration: underline;
+}
+.linked-cells a:focus img,
+.linked-cells td:hover img {
+  border: 1px solid #333;
+  opacity: .8;
+}
+
 @media only screen and (max-width: 767px) {
   /* push sidebar to bottom */
   body.sidebar-first #content,
