@@ -7,6 +7,10 @@ img[style*="right"],
 figure[style*="right"] {
   padding: .5em 0 .5em .5em;
 }
+.rss-link img {
+  margin-bottom: -1px;
+  margin-right: .5em;
+}
 /* Position share link at bottom left of content */
 .addtoany_list {
   clear: both;
