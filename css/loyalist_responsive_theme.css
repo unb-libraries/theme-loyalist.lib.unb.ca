@@ -16,7 +16,8 @@ figure[style*="right"] {
   clear: both;
   display: block!important;
 }
-.clear:after {
+.clear:after,
+.field-name-body:after {
   content: ".";
   visibility: hidden;
   display: block;
