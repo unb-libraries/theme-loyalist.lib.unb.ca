@@ -63,7 +63,8 @@ a {
   height: 10px;
 }
 
-#edit-field-subject-heading-wrapper, #edit-field-subject-heading-wrapper select {
+#edit-field-subject-heading-
+per, #edit-field-subject-heading-wrapper select {
   width: 100%;
 }
 
@@ -166,8 +167,8 @@ body.sidebar-first #content {
   width: 17%;
 }
 #footer-wrap {
-  margin: 0;
-  padding: 0 2.5%;
+  margin: 0 -45px;
+  padding: 0 3.5%;
 }
 /* fix pager overlap with above content */
 ul.pager {
